@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>hello world !</h1>
+
+    <h2> </h2>
+
+
+    다중 변수: var x , y ;  좋은 습관은 아님. <br />
+
+    복합 연산자는 보기가 힘드니, 자주 사용은 안함 <br />
+
+
+
+
+
+
+</body>
+
+<script> 
+    var a  =1
+    console.log(a -= 1)
+
+    var n = 10;
+    console.log(++n)
+    console.log(n--)
+    console.log(n)
+    console.log(--n)
+    console.log(n--)
+    console.log(n)
+
+
+    var b = confirm("진행하시겠습니까?") 
+    console.log(b) // true or false 값 출력
+
+
+    var input1 = prompt("hello! world! your name?")
+    console.log(input1)
+
+
+
+    var x1 = prompt("당신의 나이는?");
+    var x2 = 99;
+    var x3 = true;
+    var x4 = x4;
+
+    console.log("문자:" + x1)
+    console.log("숫자" + x2 )
+    console.log("boolean" + x3)
+    console.log("값없음!" + x4)
+
+
+    // 문자 숫자 계산시
+    // 문자와 숫자는 문자가 우선되고,
+    //  + 제외하고 나머지 연산은 숫자가 우선
+    console.log('12' + 12)
+    console.log('12' - 12)
+
+
+    var age = prompt("나이를 입력하세요")
+    age = Number(age);
+    if (age < 20) {
+        console.log("미성년자 입니다");
+    } else {
+        console.log("성인 입니다");
+    }
+
+
+    var age2 = prompt("나이입력 2")
+    
+    if (age2 >= 20) {
+        console.log("성인 입니다");
+    }
+    else if (age2 < 20) {
+        console.log("미성년자 입니다")
+    }
+
+
+
+    
+
+    
+
+
+
+
+
+    
+   // alert("자신을 이기는 사람이야말로 \n 진정한 승리자다\t신성 ")
+  //  alert(40 > 25 > 10);  //true(1) > 10 = false
+    //alert((40 > 25) && // 논리 시 이렇게 코딩하는 습관
+      //    (25 > 10));
+
+
+    
+
+
+</script>
+
+</html>
